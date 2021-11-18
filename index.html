@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FullStack Practical</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <Style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+            font-family:sans-serif;
+        }
+        .container
+        {
+            width: 100%;
+            height: 100vh;
+            background-image: url(./photo-1438109491414-7198515b166b.jpeg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .row1
+        {
+            width: 100%;
+            background-color: white;
+            padding: 10px;
+        }
+        .row1 ul
+        {
+            display: flex;
+            list-style: none;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .row1 ul li a
+        {
+            text-decoration: none;
+            color: gray;
+            text-transform: uppercase;
+        }
+        .row1 ul li a span
+        {
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .row1 ul li a .dot
+        {
+            color: red;
+        }
+        .row2
+        {
+            width: 100%;
+            display: flex;
+            margin-top: 70px;
+        }
+        .row2 .col7
+        {
+
+            width: 50%;
+            padding: 150px;
+        }
+        .row2 .col7 h1
+        {
+            color: white;
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+        .row2 .col7 p 
+        {
+            color: white;
+        }
+        .row2 .col7 button 
+        {
+            margin: 10px;
+            background-color: white;
+            padding: 10px;
+            border: 0;
+            border-radius: 20px;
+        }
+        .row2 .col7 .boxhead
+        {
+            display: flex;
+            width: 20%;
+            justify-content: space-evenly;
+        }
+        .row2 .col7 .box
+        {
+            width: 10px;
+            height: 10px;
+            background-color: white;
+        }
+        .col5
+        {
+            width: 50%;
+            padding-top: 70px;
+        }
+        .col5 ul
+        {
+            list-style: none;    
+        }
+        .col5 ul li
+        {
+            margin: auto;
+            padding: 5px;
+            width: 20px;
+            background-color: white;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .col5 ul li a 
+        {
+            text-decoration: none;
+            color: black;
+            background-color: white;
+        }
+    </Style>
+</head>
+<body>
+    <div class="container">
+        <div class="row1">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">features</a></li>
+                <li><a href="#">our work</a></li>
+                <li><a href="#">our team</a></li>
+                <li><a href="#"><span>spartan</span><span class="dot">.</span></a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">our blog</a></li>
+                <li><a href="#">clients</a></li>
+                <li><a href="#">contacts</a></li>
+                <li><a href="#"><i class="fa fa-bars"></i></a></li>
+            </ul>
+        </div>
+        <div class="row2">
+            <div class="col7">
+                <h1>welcome to start</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt cupiditate voluptatem quae expedita, ad pariatur impedit in vel consequuntur quam.</p>
+                <button>click here</button>
+                <div class="boxhead">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+            </div>
+            <div class="col5">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
